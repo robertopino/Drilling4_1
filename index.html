@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+
+    <title>Drilling 4_1</title>
+</head>
+<body>
+    <h1>Contáctanos</h1>
+    <div class="container d-flex">
+    <form action="" id="formulario">
+        <label for="nombre">Nombre*</label>
+        <input type="nombre" id="nombre" >
+        <label for="apellido">Apellido*</label>
+        <input type="text" id="apellido"><br><br>
+        <label for="email">Email*</label>
+        <input type="text" id="email">
+        <select name="" id="motivo">
+            <option value="-- Seleccione --" selected disable hidden>-- Seleccione --</option>
+            <option value="1">Problemas con su cuenta online.</option>
+            <option value="2">Restablecer contraseña.</option>
+            <option value="3">Solicitud de Atención al Cliente.</option>
+            <option value="4">Otro</option>
+        </select>
+        <br><br>
+        <label for="mensaje">Mensaje*</label>
+        <div class="mensaje">
+            <textarea name="mensaje" rows="2" cols="50" id="msje"></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-success">ENVIAR MENSAJE</button>
+    </form>
+    </div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
